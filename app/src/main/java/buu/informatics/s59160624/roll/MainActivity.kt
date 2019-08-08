@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val randomInt = Random().nextInt(6) + 1
         val resultText: TextView = findViewById(R.id.result_text)
         resultText.text = randomInt.toString()
+        Toast.makeText(this, "Test", Toast.LENGTH_SHORT).show()
         
     }
 }
